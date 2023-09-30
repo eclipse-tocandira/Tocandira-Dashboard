@@ -83,39 +83,6 @@ export class GettingStarted extends PureComponent<PanelProps, State> {
 
     return (
       <div className={styles.container}>
-        {!checksDone ? (
-          <div className={styles.loading}>
-            <div className={styles.loadingText}>Checking completed setup steps</div>
-            <Spinner size={24} inline />
-          </div>
-        ) : (
-          <>
-            <Button variant="secondary" fill="text" className={styles.dismiss} onClick={this.dismiss}>
-              Remove this panel
-            </Button>
-            {currentStep === steps.length - 1 && (
-              <Button
-                className={cx(styles.backForwardButtons, styles.previous)}
-                onClick={this.onPreviousClick}
-                aria-label="To advanced tutorials"
-                icon="angle-left"
-                variant="secondary"
-              />
-            )}
-            <div className={styles.content}>
-              <Step step={step} />
-            </div>
-            {currentStep < steps.length - 1 && (
-              <Button
-                className={cx(styles.backForwardButtons, styles.forward)}
-                onClick={this.onForwardClick}
-                aria-label="To basic tutorials"
-                icon="angle-right"
-                variant="secondary"
-              />
-            )}
-          </>
-        )}
       </div>
     );
   }
