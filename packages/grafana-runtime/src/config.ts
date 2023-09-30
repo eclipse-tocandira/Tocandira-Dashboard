@@ -63,7 +63,7 @@ export class GrafanaBootConfig implements GrafanaConfig {
   queryHistoryEnabled = false;
   helpEnabled = false;
   profileEnabled = false;
-  newsFeedEnabled = true;
+  newsFeedEnabled = false;
   ldapEnabled = false;
   jwtHeaderName = '';
   jwtUrlLogin = false;
