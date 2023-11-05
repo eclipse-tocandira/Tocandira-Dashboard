@@ -234,7 +234,7 @@ require (
 	github.com/blugelabs/bluge_segment_api v0.2.0 // @grafana/backend-platform
 	github.com/bufbuild/connect-go v1.4.1 // @grafana/observability-traces-and-profiling
 	github.com/dlmiddlecote/sqlstats v1.0.2 // @grafana/backend-platform
-	github.com/drone/drone-cli v1.6.1 // @grafana/grafana-delivery
+	github.com/drone/drone-cli v1.7.0 // @grafana/grafana-delivery
 	github.com/getkin/kin-openapi v0.115.0 // @grafana/grafana-operator-experience-squad
 	github.com/golang-migrate/migrate/v4 v4.7.0 // @grafana/backend-platform
 	github.com/google/go-github/v45 v45.2.0 // @grafana/grafana-delivery
